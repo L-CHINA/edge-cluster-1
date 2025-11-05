@@ -1,0 +1,9 @@
+apiVersion: kpt.dev/v1
+kind: Kptfile
+metadata:
+  name: free5gc
+  annotations:
+    config.kubernetes.io/local-config: "true"
+info:
+  site: https://github.com/L-CHINA/edge-cluster-1.git
+  description: core network
